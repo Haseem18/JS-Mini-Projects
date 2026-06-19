@@ -38,13 +38,15 @@ A simple yet interactive web app that lets users change the background color of 
 ---
 
 ## 📂 Project Structure
-01-background-color-generator/
 
+```text
+02-Quote-Generator/
+
+├── images/
 ├── index.html
-
 ├── style.css
-
 └── main.js
+```
 
 ---
 
