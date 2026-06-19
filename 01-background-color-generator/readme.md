@@ -38,3 +38,22 @@ A simple yet interactive web app that lets users change the background color of 
 ---
 
 ## 📂 Project Structure
+01-background-color-generator/
+
+├── index.html
+
+├── style.css
+
+└── main.js
+
+---
+
+## 🙏 Credits
+
+Built while learning JavaScript fundamentals as part of the **Thunder Batch (100 Days of Code)** program by **Rohit Negi** ([Coder Army](https://www.youtube.com/@CoderArmy9)).
+
+---
+
+## 👤 Author
+
+**Haseem** — [GitHub](https://github.com/Haseem18)
