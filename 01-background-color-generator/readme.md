@@ -2,7 +2,7 @@
 
 A simple yet interactive web app that lets users change the background color of the page either by clicking on randomly generated color buttons or by manually entering a valid CSS color value.
 
-🔗 **Live Demo:** [Add your GitHub Pages link here]
+🔗 **Live Demo:** https://haseem18.github.io/JS-Mini-Projects/01-background-color-generator/
 
 ---
 
