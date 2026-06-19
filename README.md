@@ -14,6 +14,7 @@ Each project focuses on mastering a specific JavaScript concept through hands-on
 | -- | ----------------------------- | -------------------------------------------------------------------------- | ------------------------------------------------------------------------------------- |
 | 01 | 🎨 Background Color Generator | https://haseem18.github.io/JS-Mini-Projects/01-background-color-generator/ | DOM Manipulation, Event Listeners, Input Handling, Random Colors                      |
 | 02 | 💬 Quote Generator            | https://haseem18.github.io/JS-Mini-Projects/02-Quote-Generator/            | Arrays, Objects, DOM Manipulation, Randomization, Event Listeners, Dynamic UI Updates |
+| 03 | 😂 Joke Generator             | https://haseem18.github.io/JS-Mini-Projects/03-Joke-Generator/             | Arrays of Objects, DOM Manipulation, Random Selection, Event Handling                |
 
 > More JavaScript mini projects will be added as I progress through the Thunder Batch challenge.
 
@@ -47,6 +48,8 @@ JS-Mini-Projects/
 ├── 01-background-color-generator/
 │
 ├── 02-Quote-Generator/
+│
+├── 03-Joke-Generator/
 │
 └── README.md
 ```
