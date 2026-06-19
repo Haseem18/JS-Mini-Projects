@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background: #050505; 
+    background-image: 
+        linear-gradient(rgba(16, 185, 129, 0.03) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(16, 185, 129, 0.03) 1px, transparent 1px);
+    background-size: 30px 30px;
+}
+
+#root {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+.cal_container {
+    width: 100%;
+    max-width: 40rem;
+    background: #0d0d0d; 
+    border-radius: 2.4rem;
+    padding: 3.5rem;
+    border: 1px solid #1a1a1a; 
+    box-shadow:
+        0 30px 60px rgba(0, 0, 0, 0.8),
+        0 0 50px rgba(16, 185, 129, 0.02); /* Ghostly green ambient back-glow */
+    transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.cal_container:hover {
+    transform: scale(1.01) translateY(-2px);
+    border-color: #10b981; /* Border ignites into emerald on interaction */
+    box-shadow:
+        0 40px 80px rgba(0, 0, 0, 0.9),
+        0 0 40px rgba(16, 185, 129, 0.08);
+}
+
+.cal_container h1 {
+    text-align: center;
+    font-size: 2.6rem;
+    color: #ffffff; 
+    margin-bottom: 3rem;
+    font-weight: 800;
+    letter-spacing: -0.06em;
+    text-transform: uppercase;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+form input,
+form select {
+    width: 100%;
+    padding: 1.6rem;
+    /* Pitch black inputs recessed into the card */
+    border: 1px solid #222222; 
+    border-radius: 1.4rem;
+    outline: none;
+    background: #050505; 
+    color: #ffffff;
+    font-size: 1.6rem;
+    font-weight: 500;
+    transition: all 0.25s ease;
+}
+
+form select option {
+    background: #0d0d0d;
+    color: #ffffff;
+}
+
+form input::placeholder {
+    color: #444444; /* Dark charcoal placeholder texts */
+}
+
+form input:focus,
+form select:focus {
+    border-color: #10b981; /* Electric emerald laser focus */
+    box-shadow: 0 0 15px rgba(16, 185, 129, 0.15);
+    background: #080808;
+}
+
+form select {
+    cursor: pointer;
+}
+
+/* Clear out dirty default native arrows */
+form input::-webkit-outer-spin-button,
+form input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+    padding: 1.6rem;
+    border-radius: 1.4rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    /* Stark radioactive neon green block against dark canvas */
+    color: #000000;
+    background: #10b981; 
+    box-shadow: 0 8px 24px rgba(16, 185, 129, 0.25);
+    transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+button:hover {
+    background: #34d399; /* Shifts to neon mint */
+    box-shadow: 0 12px 30px rgba(52, 211, 153, 0.4);
+    transform: translateY(-2px);
+}
+
+button:active {
+    transform: translateY(0);
+    box-shadow: 0 4px 10px rgba(16, 185, 129, 0.2);
+}
+
+p {
+    margin-top: 3rem;
+    padding: 1.8rem;
+    border-radius: 1.4rem;
+    background: rgba(16, 185, 129, 0.03); 
+    border: 1px dashed rgba(16, 185, 129, 0.2); 
+    color: #10b981; 
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 0.05em;
+}
+
+p.result-empty {
+    color: #555555;
+    border-color: #222222;
+    background: transparent;
+}
+
+@media (max-width: 500px) {
+    html {
+        font-size: 56%;
+    }
+    .cal_container {
+        padding: 2.6rem;
+    }
+}

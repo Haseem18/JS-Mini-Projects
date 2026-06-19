@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Calculator</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="root">
+        <section class="cal_container">
+            <h1>Mini Calculator</h1>
+
+            <form>
+                <div class="num1">
+                    <input type="number" step="any" placeholder="0.00">
+                </div>
+                <div class="num2">
+                    <input type="number" step="any" placeholder="0.00">
+                </div>
+                <div>
+                    <select>
+                        <option value="+">+</option>
+                        <option value="-">-</option>
+                        <option value="x">×</option>
+                        <option value="/">÷</option>
+                        <option value="%">%</option>
+                        <option value="**">Power (xʸ)</option>
+                    </select>
+                </div>
+                <button type="submit">Execute</button>
+            </form>
+
+            <p class="result-empty">Awaiting inputs...</p>
+            
+        </section>
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+</html>
