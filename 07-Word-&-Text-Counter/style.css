@@ -1,0 +1,153 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:"Segoe UI",Arial,sans-serif;
+}
+
+html{
+    font-size:62.5%;
+}
+
+body{
+    background:#0f172a;
+}
+
+#root{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:2rem;
+    background:
+    radial-gradient(circle at top right,#3b82f620,transparent 30%),
+    radial-gradient(circle at bottom left,#22c55e20,transparent 30%);
+}
+
+.container{
+    width:min(100%,52rem);
+    background:#111827;
+    border:1px solid #1f2937;
+    border-radius:2rem;
+    padding:3rem;
+    box-shadow:0 2rem 5rem rgba(0,0,0,.45);
+}
+
+.header{
+    text-align:center;
+    margin-bottom:2.5rem;
+}
+
+.header h1{
+    color:#f8fafc;
+    font-size:3rem;
+    margin-bottom:.8rem;
+}
+
+.header p{
+    color:#94a3b8;
+    font-size:1.5rem;
+}
+
+.textarea-box{
+    position:relative;
+    margin-bottom:2.5rem;
+}
+
+textarea{
+    width:100%;
+    min-height:20rem;
+    resize:none;
+    border:none;
+    outline:none;
+    border-radius:1.6rem;
+    padding:2rem;
+    font-size:1.6rem;
+    line-height:1.7;
+    background:#1e293b;
+    color:#f8fafc;
+    border:2px solid transparent;
+    transition:.3s;
+}
+
+textarea::placeholder{
+    color:#64748b;
+}
+
+textarea:focus{
+    border-color:#3b82f6;
+}
+
+.limit{
+    position:absolute;
+    right:1.6rem;
+    bottom:1.4rem;
+    font-size:1.3rem;
+    color:#94a3b8;
+    background:#0f172a;
+    padding:.6rem 1rem;
+    border-radius:5rem;
+}
+
+.stats{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:1.5rem;
+}
+
+.card{
+    background:#1e293b;
+    border:1px solid #334155;
+    border-radius:1.5rem;
+    padding:2rem;
+    text-align:center;
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-3px);
+    border-color:#3b82f6;
+}
+
+.card h2{
+    color:#94a3b8;
+    font-size:1.5rem;
+    margin-bottom:1rem;
+    font-weight:500;
+}
+
+.card p{
+    color:#ffffff;
+    font-size:3.2rem;
+    font-weight:700;
+}
+
+.limit-danger{
+    color:#ef4444;
+    background:rgba(239,68,68,.12);
+    border:1px solid rgba(239,68,68,.35);
+}
+
+.textarea-danger{
+    border-color:#ef4444 !important;
+    box-shadow:0 0 12px rgba(239,68,68,.2);
+}
+
+@media(max-width:480px){
+
+    html{
+        font-size:56.25%;
+    }
+
+    .container{
+        padding:2rem;
+    }
+
+    .stats{
+        grid-template-columns:1fr;
+    }
+
+    textarea{
+        min-height:18rem;
+    }
+}
