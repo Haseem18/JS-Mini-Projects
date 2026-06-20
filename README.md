@@ -18,6 +18,7 @@ Each project focuses on mastering a specific JavaScript concept through hands-on
 | 04 | 🧮 Mini Calculator            | https://haseem18.github.io/JS-Mini-Projects/04-Mini-Calculator/            | Forms, DOM Manipulation, Event Handling, Switch Statement, Mathematical Operations, Input Validation  |
 | 05 | 🔢 Counter                    | https://haseem18.github.io/JS-Mini-Projects/05-Counter/                    | DOM Manipulation, Event Listeners, Dynamic DOM Creation, State Management, Toast Notifications        |
 | 06 | ❤️ Love Calculator            | https://haseem18.github.io/JS-Mini-Projects/06-Love-Calculator/            | Forms, DOM Manipulation, Input Validation, Conditional Logic, Toast Notifications, Dynamic UI Updates |
+| 07 | 🔤 Word & Text Counter        | https://haseem18.github.io/JS-Mini-Projects/07-Word-&-Text-Counter/        | Textarea, String Methods, Word Counting, Character Counting, DOM Manipulation, Input Events           |
 
 > More JavaScript mini projects will be added as I progress through the Thunder Batch challenge.
 
@@ -54,6 +55,7 @@ JS-Mini-Projects/
 ├── 04-Mini-Calculator/
 ├── 05-Counter/
 ├── 06-Love-Calculator/
+├── 07-Word-&-Text-Counter/
 │
 └── README.md
 ```
