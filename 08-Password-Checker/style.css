@@ -1,0 +1,149 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:"Inter","Segoe UI",sans-serif;
+}
+
+html{
+    font-size:62.5%;
+}
+
+body{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:2rem;
+    background:
+    radial-gradient(circle at top left,#312e81 0%,transparent 35%),
+    radial-gradient(circle at bottom right,#0f766e 0%,transparent 35%),
+    linear-gradient(135deg,#020617,#0f172a,#111827);
+}
+
+article{
+    width:min(100%,45rem);
+    padding:4rem;
+    border-radius:2.4rem;
+    background:rgba(255,255,255,.06);
+    border:1px solid rgba(255,255,255,.08);
+    backdrop-filter:blur(18px);
+    -webkit-backdrop-filter:blur(18px);
+    box-shadow:
+    0 2rem 5rem rgba(0,0,0,.45),
+    inset 0 1px rgba(255,255,255,.08);
+}
+
+h1{
+    text-align:center;
+    font-size:3rem;
+    color:#f8fafc;
+    margin-bottom:3rem;
+    font-weight:800;
+}
+
+.input-box{
+    display:flex;
+    gap:1rem;
+    margin-bottom:2rem;
+}
+
+input{
+    flex:1;
+    padding:1.5rem 1.8rem;
+    border-radius:1.4rem;
+    border:1px solid #334155;
+    background:#0f172a;
+    color:white;
+    font-size:1.6rem;
+    outline:none;
+    transition:.25s;
+}
+
+input::placeholder{
+    color:#64748b;
+}
+
+input:focus{
+    border-color:#38bdf8;
+    box-shadow:0 0 0 .4rem rgba(56,189,248,.15);
+}
+
+button{
+    padding:0 2rem;
+    border:none;
+    border-radius:1.4rem;
+    cursor:pointer;
+    background:linear-gradient(135deg,#06b6d4,#3b82f6);
+    color:white;
+    font-size:1.5rem;
+    font-weight:700;
+    transition:.25s;
+}
+
+button:hover{
+    transform:translateY(-2px);
+    box-shadow:0 .8rem 2rem rgba(59,130,246,.35);
+}
+
+button:active{
+    transform:scale(.97);
+}
+
+.strength{
+    margin-top:2rem;
+    padding:1.6rem;
+    border-radius:1.4rem;
+    background:rgba(255,255,255,.04);
+    border:1px solid rgba(255,255,255,.06);
+    color:#cbd5e1;
+    font-size:1.7rem;
+    text-align:center;
+    font-weight:600;
+
+    display:none;
+    opacity:0;
+    transform:translateY(.8rem);
+    transition:opacity .3s ease, transform .3s ease;
+}
+
+.strength.show{
+    display:block;
+    opacity:1;
+    transform:translateY(0);
+}
+
+.strength span{
+    font-weight:800;
+}
+
+.strength.weak span{
+    color:#ef4444;   
+}
+
+.strength.normal span{
+    color:#f59e0b;   
+}
+
+.strength.strong span{
+    color:#22c55e;   
+}
+@media(max-width:500px){
+
+    html{
+        font-size:56.25%;
+    }
+
+    article{
+        padding:2.8rem;
+    }
+
+    .input-box{
+        flex-direction:column;
+    }
+
+    button{
+        padding:1.4rem;
+    }
+
+}
