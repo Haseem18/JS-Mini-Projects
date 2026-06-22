@@ -10,16 +10,17 @@ Each project focuses on mastering a specific JavaScript concept through hands-on
 
 ## 📁 Projects
 
-| #  | Project                          | Live Demo                                                                  | Concepts Covered                                                                                                 |
-| -- | -------------------------------- | -------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
-| 01 | 🎨 Background Color Generator    | https://haseem18.github.io/JS-Mini-Projects/01-background-color-generator/ | DOM Manipulation, Event Listeners, Input Handling, Random Colors                                                 |
-| 02 | 💬 Quote Generator               | https://haseem18.github.io/JS-Mini-Projects/02-Quote-Generator/            | Arrays, Objects, DOM Manipulation, Randomization, Event Listeners, Dynamic UI Updates                            |
-| 03 | 😂 Joke Generator                | https://haseem18.github.io/JS-Mini-Projects/03-Joke-Generator/             | Arrays of Objects, DOM Manipulation, Random Selection, Event Handling                                            |
-| 04 | 🧮 Mini Calculator               | https://haseem18.github.io/JS-Mini-Projects/04-Mini-Calculator/            | Forms, DOM Manipulation, Event Handling, Switch Statement, Mathematical Operations, Input Validation             |
-| 05 | 🔢 Counter                       | https://haseem18.github.io/JS-Mini-Projects/05-Counter/                    | DOM Manipulation, Event Listeners, Dynamic DOM Creation, State Management, Toast Notifications                   |
-| 06 | ❤️ Love Calculator               | https://haseem18.github.io/JS-Mini-Projects/06-Love-Calculator/            | Forms, DOM Manipulation, Input Validation, Conditional Logic, Toast Notifications, Dynamic UI Updates            |
-| 07 | 🔤 Word & Text Counter           | https://haseem18.github.io/JS-Mini-Projects/07-Word-&-Text-Counter/        | Textarea, String Methods, Word Counting, Character Counting, DOM Manipulation, Input Events                      |
-| 08 | 🔐 Password Strength Checker     | https://haseem18.github.io/JS-Mini-Projects/08-Password-Checker/           | Password Validation, String Iteration, Conditional Logic, DOM Manipulation, Input Events, Show/Hide Password UI |
+| #  | Project                       | Live Demo                                                                  | Concepts Covered |
+| -- | ----------------------------- | -------------------------------------------------------------------------- | ---------------- |
+| 01 | 🎨 Background Color Generator | https://haseem18.github.io/JS-Mini-Projects/01-background-color-generator/ | DOM Manipulation, Event Listeners, Input Handling, Random Colors |
+| 02 | 💬 Quote Generator | https://haseem18.github.io/JS-Mini-Projects/02-Quote-Generator/ | Arrays, Objects, DOM Manipulation, Randomization, Event Listeners, Dynamic UI Updates |
+| 03 | 😂 Joke Generator | https://haseem18.github.io/JS-Mini-Projects/03-Joke-Generator/ | Arrays of Objects, DOM Manipulation, Random Selection, Event Handling |
+| 04 | 🧮 Mini Calculator | https://haseem18.github.io/JS-Mini-Projects/04-Mini-Calculator/ | Forms, DOM Manipulation, Event Handling, Switch Statement, Mathematical Operations, Input Validation |
+| 05 | 🔢 Counter | https://haseem18.github.io/JS-Mini-Projects/05-Counter/ | DOM Manipulation, Event Listeners, Dynamic DOM Creation, State Management, Toast Notifications |
+| 06 | ❤️ Love Calculator | https://haseem18.github.io/JS-Mini-Projects/06-Love-Calculator/ | Forms, DOM Manipulation, Input Validation, Conditional Logic, Toast Notifications, Dynamic UI Updates |
+| 07 | 🔤 Word & Text Counter | https://haseem18.github.io/JS-Mini-Projects/07-Word-&-Text-Counter/ | Textarea, String Methods, Word Counting, Character Counting, DOM Manipulation, Input Events |
+| 08 | 🔐 Password Strength Checker | https://haseem18.github.io/JS-Mini-Projects/08-Password-Checker/ | Password Validation, String Iteration, Conditional Logic, DOM Manipulation, Input Events, Show/Hide Password UI |
+| 09 | 🕒 Digital Clock | https://haseem18.github.io/JS-Mini-Projects/09-Digital-Clock/ | Date Object, setInterval(), Time Formatting, Date Formatting, DOM Manipulation, Real-Time Updates |
 
 > More JavaScript mini projects will be added as I progress through the Thunder Batch challenge.
 
@@ -58,6 +59,7 @@ JS-Mini-Projects/
 ├── 06-Love-Calculator/
 ├── 07-Word-&-Text-Counter/
 ├── 08-Password-Checker/
+├── 09-Digital-Clock/
 │
 └── README.md
 ```
