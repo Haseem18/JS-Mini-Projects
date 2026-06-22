@@ -1,0 +1,147 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:"Segoe UI",sans-serif;
+}
+
+html{
+    font-size:62.5%;
+}
+
+body{
+    min-height:100vh;
+    background:
+        radial-gradient(circle at top,#173b77 0%,#0f172a 45%,#06070d 100%);
+    color:#fff;
+}
+
+#root{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:2rem;
+}
+
+.container{
+    width:100%;
+    max-width:95rem;
+    text-align:center;
+}
+
+.badge{
+    display:inline-block;
+    padding:.9rem 2rem;
+    border-radius:5rem;
+    background:rgba(255,255,255,.08);
+    border:1px solid rgba(255,215,0,.35);
+    color:#FFD700;
+    font-size:1.4rem;
+    font-weight:600;
+    letter-spacing:.2rem;
+    margin-bottom:2rem;
+}
+
+.container h1{
+    font-size:clamp(3.5rem,6vw,6rem);
+    font-weight:800;
+    margin-bottom:1rem;
+    color:#fff;
+}
+
+.subtitle{
+    font-size:1.8rem;
+    color:#cbd5e1;
+    margin-bottom:2.5rem;
+}
+
+.event-info{
+    display:flex;
+    justify-content:center;
+    gap:3rem;
+    flex-wrap:wrap;
+    margin-bottom:5rem;
+}
+
+.event-info span{
+    padding:1rem 2rem;
+    background:rgba(255,255,255,.05);
+    border:1px solid rgba(255,255,255,.08);
+    border-radius:5rem;
+    font-size:1.5rem;
+    color:#f8fafc;
+}
+
+.countdown{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:2rem;
+}
+
+.card{
+    padding:3rem 2rem;
+    border-radius:2rem;
+    background:rgba(255,255,255,.06);
+    backdrop-filter:blur(12px);
+    border:1px solid rgba(255,255,255,.08);
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+    border-color:#FFD700;
+    box-shadow:0 20px 40px rgba(255,215,0,.18);
+}
+
+.card h2{
+    font-size:5.2rem;
+    font-weight:800;
+    color:#FFD700;
+    margin-bottom:1rem;
+}
+
+.card span{
+    display:block;
+    font-size:1.5rem;
+    text-transform:uppercase;
+    letter-spacing:.2rem;
+    color:#cbd5e1;
+}
+
+@media(max-width:768px){
+
+    .countdown{
+        grid-template-columns:repeat(2,1fr);
+    }
+
+    .card h2{
+        font-size:4.5rem;
+    }
+
+    .event-info{
+        gap:1.5rem;
+    }
+
+}
+
+@media(max-width:500px){
+
+    .countdown{
+        grid-template-columns:1fr;
+    }
+
+    .card{
+        padding:2.5rem;
+    }
+
+    .card h2{
+        font-size:4rem;
+    }
+
+    .event-info{
+        flex-direction:column;
+        align-items:center;
+    }
+
+}
