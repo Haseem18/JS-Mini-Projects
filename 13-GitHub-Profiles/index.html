@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Profiles</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>GitHub Profiles</h1>
+
+        <div class="search-box">
+            <input type="number" placeholder="Number of profiles..." min="1" max="100">
+        </div>
+    </header>
+
+    <div class="loader-wrapper">
+        <div class="spinner"></div>
+        <p>Loading GitHub Profiles...</p>
+    </div>
+
+    <main class="profiles-container">
+    </main>
+
+
+    <section class="github-user-page hidden">
+
+        <button class="back-btn">
+            ← Back
+        </button>
+
+        <div class="github-user-card">
+
+            <div class="user-top-section">
+
+                <img class="user-avatar" src="" alt="">
+
+                <div class="user-info">
+                    <h1></h1>
+                    <p></p>
+
+                    <span class="user-type">
+                        User
+                    </span>
+                </div>
+
+            </div>
+
+            <div class="user-stats">
+
+                <div class="stat-item">
+                    <h2>8402</h2>
+                    <span>Followers</span>
+                </div>
+
+                <div class="stat-item">
+                    <h2>30</h2>
+                    <span>Following</span>
+                </div>
+
+                <div class="stat-item">
+                    <h2>8</h2>
+                    <span>Repositories</span>
+                </div>
+
+                <div class="stat-item">
+                    <h2>21</h2>
+                    <span>Gists</span>
+                </div>
+
+            </div>
+
+            <div class="user-details">
+
+                <div class="detail-box">
+                    <span>Name</span>
+                    <p>PJ Hyett</p>
+                </div>
+
+                <div class="detail-box">
+                    <span>Website</span>
+                    <p>hyett.com</p>
+                </div>
+
+                <div class="detail-box">
+                    <span>Created</span>
+                    <p>2008-01-07</p>
+                </div>
+
+                <div class="detail-box">
+                    <span>Updated</span>
+                    <p>2026-04-07</p>
+                </div>
+
+            </div>
+
+            <a href="#" target="_blank" class="visit-profile-btn">
+                Open GitHub Profile
+            </a>
+
+        </div>
+
+    </section>
+
+
+
+    <script src="./main.js"></script>
+
+</body>
+
+</html>
