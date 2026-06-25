@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <section id="weather-app">
+        
+        <article class="weather-card">
+
+            <h1>🌦️ Weather App</h1>
+
+            <form class="search-box">
+                <input type="text" placeholder="Enter city name..." autofocus>
+                <button type="submit">Search</button>
+            </form>
+
+            <div class="search-loader hidden">
+                <div class="mini-spinner"></div>
+                <span>Fetching weather...</span>
+            </div>
+
+            <p class="error hidden"></p>
+
+            <div class="weather-info hidden">
+                <img src="" class="weather-icon">
+
+                <h2 class="temperature"></h2>
+                <p class="city"></p>
+                <p class="description"></p>
+            </div>
+
+            <div class="weather-stats hidden">
+
+                <div class="stat">
+                    <span>💧</span>
+                    <h3 class="humidity"></h3>
+                    <p>Humidity</p>
+                </div>
+
+                <div class="stat">
+                    <span>💨</span>
+                    <h3 class="wind"></h3>
+                    <p>Wind</p>
+                </div>
+
+                <div class="stat">
+                    <span>🌡️</span>
+                    <h3 class="feelsLike"></h3>
+                    <p>Feels Like</p>
+                </div>
+
+                <div class="stat">
+                    <span>👁️</span>
+                    <h3 class="visibility"></h3>
+                    <p>Visibility</p>
+                </div>
+
+            </div>
+
+        </article>
+
+    </section>
+
+    <script src="./main.js"></script>
+
+</body>
+
+</html>
