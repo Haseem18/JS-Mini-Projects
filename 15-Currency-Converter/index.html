@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <section id="currency-app">
+
+        <article class="converter-card">
+
+            <h1>💱 Currency Converter</h1>
+
+            <form class="converter-form">
+
+                <div class="input-group">
+                    <label>Amount</label>
+                    <input autofocus step="any" type="number" placeholder="Enter amount">
+                </div>
+
+                <div class="currency-row">
+
+                    <div class="input-group">
+                        <label>From</label>
+                        <select class="currencyFrom">
+                            <option value="USD">USD</option>
+                            <option value="INR">INR</option>
+                            <option value="EUR">EUR</option>
+                            <option value="GBP">GBP</option>
+                        </select>
+                    </div>
+
+                    <button type="button" class="swap-btn">
+                        ⇄
+                    </button>
+
+                    <div class="input-group">
+                        <label>To</label>
+                        <select class="currencyTo">
+                            <option value="INR">INR</option>
+                            <option value="USD">USD</option>
+                            <option value="EUR">EUR</option>
+                            <option value="GBP">GBP</option>
+                        </select>
+                    </div>
+
+                </div>
+
+                <button type="submit" class="convert-btn">
+                    Convert Currency
+                </button>
+
+            </form>
+
+            <div class="loader hidden">
+                <div class="spinner"></div>
+                <p>Converting...</p>
+            </div>
+
+            <p class="error hidden"></p>
+
+            <div class="result hidden">
+
+                <h2>Converted Amount</h2>
+
+                <p class="converted-value">
+                    ₹8,540.50
+                </p>
+
+                <span class="exchange-rate">
+                    1 USD = 85.40 INR
+                </span>
+
+            </div>
+
+        </article>
+
+    </section>
+
+    <script src="./main.js"></script>
+
+</body>
+</html>
