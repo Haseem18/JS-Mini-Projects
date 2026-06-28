@@ -27,6 +27,7 @@ Each project focuses on mastering a specific JavaScript concept through hands-on
 | 13 | 🐙 GitHub Profiles Explorer   | https://haseem18.github.io/JS-Mini-Projects/13-GitHub-Profiles/            | Fetch API, Async/Await, REST API Integration, GitHub API, Debouncing, Event Delegation, Dynamic DOM Creation, Loading States, Error Handling          |
 | 14 | 🌦️ Weather App               | https://haseem18.github.io/JS-Mini-Projects/14-Weather-App/                | Fetch API, Async/Await, API Integration, Weather API, Forms, Error Handling, Loading States, DOM Manipulation, Dynamic UI Updates                     |
 | 15 | 💱 Currency Converter         | https://haseem18.github.io/JS-Mini-Projects/15-Currency-Converter/         | Fetch API, Async/Await, Currency Exchange API, Form Validation, Error Handling, Loading States, DOM Manipulation, Dynamic UI Updates, Data Conversion |
+| 16 | 📝 To Do List                | https://haseem18.github.io/JS-Mini-Projects/16-To-Do-List/                | DOM Manipulation, Event Delegation, Dynamic DOM Creation, Form Validation, Arrays, CRUD Operations, ContentEditable, Error Handling, Responsive UI |
 
 > More JavaScript mini projects will be added as I progress through the Thunder Batch challenge.
 
@@ -73,6 +74,7 @@ JS-Mini-Projects/
 ├── 13-GitHub-Profiles/
 ├── 14-Weather-App/
 ├── 15-Currency-Converter/
+├── 16-To-Do-List/
 │
 └── README.md
 ```
